@@ -8,6 +8,12 @@
 <form action="main_page.php" method="POST">
 <input type="radio" name="gender" value="male" checked> Male <br>
 <input type="radio" name="gender" value="female">Female<br>
+
+<input type="radio" name="activity" value="sedentaire" checked>Sédentaire<br>
+<input type="radio" name="activity" value="leger">Léger<br>
+<input type="radio" name="activity" value="modere">Modéré<br>
+<input type="radio" name="activity" value="intense">Intense<br>
+
 <label for="age">Age : </label><input name="age" type="text"><br>
 <label for="taille">Taille : </label><input name="taille" type="text"><br>
 <label for="poids">Age : </label><input name="poids" type="text"><br>
